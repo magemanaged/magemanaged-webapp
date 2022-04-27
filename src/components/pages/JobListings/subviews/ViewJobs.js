@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencil, faTrash, faCheck } from "@fortawesome/free-solid-svg-icons";
 import { TabList } from "../../../constants/TabList";
 import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { Scrollbars } from "react-custom-scrollbars";
 import { Positions } from "./JobTable";
 
@@ -44,7 +43,7 @@ function ViewJobs(props) {
 
   useEffect(() => {
     getJobList();
-  }, [props.selected]);
+  }, [props.selected, props.jobChanges]);
 
   return (
     <div
@@ -65,7 +64,11 @@ function ViewJobs(props) {
             />
           </div>
         </div>
-        <Positions updateJobs={getJobList} />
+        <Positions
+          updateJobs={getJobList}
+          deleteJob={deletePosition}
+          jobUpdates={props.jobChanges}
+        />
       </div>
     </div>
   );

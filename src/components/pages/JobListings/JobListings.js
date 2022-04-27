@@ -58,6 +58,7 @@ function JobListings() {
         name={pageTitles[0]}
         selected={selectPage}
         updateJobList={getJobList}
+        jobChanges={jobCount}
       />
       <AddJob
         name={pageTitles[1]}

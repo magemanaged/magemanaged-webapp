@@ -24,4 +24,14 @@ describe("Tab", () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it("Activates click event", () => {
+    const tabClicked = jest.fn();
+    const tree = renderer.create(
+      <Tab selected="OtherTab" name="TestTab" click={tabClicked} />
+    );
+    const foundTab = tree.root.findByType("button");
+    foundTab.props.onClick();
+    expect(tabClicked).toHaveBeenCalledTimes(1);
+  });
 });

@@ -1,13 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useGlobalFilter, useSortBy, useTable } from "react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPencil,
-  faTrash,
-  faCheck,
-  faBell,
-  faPen,
-} from "@fortawesome/free-solid-svg-icons";
+import { faPencil, faTrash, faBell } from "@fortawesome/free-solid-svg-icons";
 import { Merlin } from "../../../../auth/merlin/api";
 import { apiConfig } from "../../../../auth/merlin/config";
 import "./JobTable.css";
@@ -72,12 +66,19 @@ export function Positions(props) {
       {
         id: "Edit",
         Header: "",
-        Cell: ({ row }) => (
+        accessor: "_id",
+        Cell: (row) => (
           <div className="icons-container">
             <div className="icon-container edit-icon-container">
               <FontAwesomeIcon className="icon fa-faPencil" icon={faPencil} />
             </div>
-            <div className="icon-container delete-icon-container">
+            <div
+              className="icon-container delete-icon-container"
+              onClick={() => {
+                props.deleteJob(row.cell.row.original._id);
+                fetchPositions();
+              }}
+            >
               <FontAwesomeIcon
                 className="icon delete-icon fa-faTrash"
                 icon={faTrash}
@@ -117,7 +118,7 @@ export function Positions(props) {
 
   useEffect(() => {
     fetchPositions();
-  }, []);
+  }, [props.jobUpdates]);
 
   const isEven = (idx) => idx % 2 === 0;
 

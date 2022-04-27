@@ -32,3 +32,5 @@ export const Merlin = () => {
 
   return { callMerlin };
 };
+
+export default Merlin;
