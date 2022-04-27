@@ -1,0 +1,70 @@
+.tab-item {
+  margin-right: 10px;
+  padding: 2px 15px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.normal-color {
+  color: #0093e9;
+  border-color: #0093e9;
+}
+
+.normal-color:hover {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-attachment: fixed;
+  color: white;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.reverse-color {
+  color: #7973eb;
+  border-color: #7973eb;
+}
+
+.reverse-color:hover {
+  background: #7973eb;
+  background: linear-gradient(157deg, #7973eb 0%, #1389b3 45%, #4d75d6 100%);
+  background-attachment: fixed;
+  color: white;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tab-selected {
+  background-color: #0093e9;
+  border-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-attachment: fixed;
+  color: white;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.normal-color-selected {
+  background-color: #0093e9;
+  border-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-attachment: fixed;
+  color: white;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.reverse-color-selected {
+  background: #7973eb;
+  border-color: #7973eb;
+  background: linear-gradient(157deg, #7973eb 0%, #1389b3 45%, #4d75d6 100%);
+  background-attachment: fixed;
+  color: white;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=Tab.css.map */

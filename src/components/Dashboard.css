@@ -1,0 +1,27 @@
+.dash-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: var(--main-padding);
+  height: 100vh;
+  position: relative;
+}
+
+.dash-wrapper .nav-wrapper {
+  margin-right: 8px;
+}
+
+.dash-wrapper .main-view-wrapper {
+  padding-left: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+}
+/*# sourceMappingURL=Dashboard.css.map */

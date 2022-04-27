@@ -1,0 +1,77 @@
+.side-navbar {
+    width: 300px;
+    height: calc(100vh - calc(var(--main-padding) * 2));
+    position: relative;
+
+    @media screen and (max-height: 500px) {
+        width: 240px;
+    }
+
+    .nav-container {
+        height: 100%;
+        width: 100%;
+        background: rgb(121,115,235);
+    background: linear-gradient(157deg, rgba(121,115,235,1) 0%, rgba(19,137,179,1) 45%, rgba(77,117,214,1) 100%);
+        //mix-blend-mode: overlay;
+
+        //background: rgb(61,213,208);
+        //background: linear-gradient(45deg, rgba(61,213,208,1) 0%, rgba(97,140,214,1) 50%, rgba(233,54,255,1) 100%);
+
+    //background-attachment: fixed;
+    }
+
+    .company-logo {
+        text-align: center;
+         img {
+             margin-top: 10px;
+             height: 35px;
+         }
+    }
+
+    .userInfo {
+        margin-top: 5px;
+    }
+
+    .nav-btns {
+        width: 100%;
+        height: auto;
+        //opacity: 50%;
+    }
+
+    .logout-button {
+        color: white;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 35px;
+    }
+
+    .logo {
+        color: white;
+        width: 100%;
+        font-size: 0.6em;
+        text-align: center;
+        position: absolute;
+        bottom: 15px;
+    
+        img {
+            height: 15px;
+        }
+    }
+    
+    .version {
+        color: white;
+        width: 100%;
+        font-size: 0.6em;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+
+
+
+
+
+

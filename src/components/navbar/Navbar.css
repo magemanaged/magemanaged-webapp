@@ -1,0 +1,67 @@
+.side-navbar {
+  width: 300px;
+  height: calc(100vh - calc(var(--main-padding) * 2));
+  position: relative;
+}
+
+@media screen and (max-height: 500px) {
+  .side-navbar {
+    width: 240px;
+  }
+}
+
+.side-navbar .nav-container {
+  height: 100%;
+  width: 100%;
+  background: #7973eb;
+  background: linear-gradient(157deg, #7973eb 0%, #1389b3 45%, #4d75d6 100%);
+}
+
+.side-navbar .company-logo {
+  text-align: center;
+}
+
+.side-navbar .company-logo img {
+  margin-top: 10px;
+  height: 35px;
+}
+
+.side-navbar .userInfo {
+  margin-top: 5px;
+}
+
+.side-navbar .nav-btns {
+  width: 100%;
+  height: auto;
+}
+
+.side-navbar .logout-button {
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 35px;
+}
+
+.side-navbar .logo {
+  color: white;
+  width: 100%;
+  font-size: 0.6em;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+}
+
+.side-navbar .logo img {
+  height: 15px;
+}
+
+.side-navbar .version {
+  color: white;
+  width: 100%;
+  font-size: 0.6em;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=Navbar.css.map */

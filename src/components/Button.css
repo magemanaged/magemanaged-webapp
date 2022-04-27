@@ -1,0 +1,28 @@
+.btn-wrapper {
+  display: inline-block;
+  -webkit-transition: all 5s ease;
+  transition: all 5s ease;
+}
+
+.btn-wrapper .btn {
+  width: 300px;
+  border-radius: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding: 0.4em 0.8em;
+  -webkit-transition: all  0.25s ease;
+  transition: all  0.25s ease;
+}
+
+.btn-wrapper .btn--small {
+  width: 150px;
+  font-size: 0.8rem;
+}
+
+.btn-wrapper .btn--medium {
+  width: 200px;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=Button.css.map */

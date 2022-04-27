@@ -1,0 +1,22 @@
+.page-header {
+    position: relative;
+    margin-top: 25px;
+
+    .page-title {
+        color: gray;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .page-update {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .page-description {
+        color: gray;
+        font-size: 0.9em;
+        font-weight: 500;
+    }
+}
+

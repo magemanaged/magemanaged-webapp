@@ -1,0 +1,95 @@
+.create-ticket-view {
+  height: 100%;
+}
+
+.create-ticket-view .create-ticket-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.create-ticket-view .create-ticket-card .top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.create-ticket-view .create-ticket-card .top-container .title-container .create-ticket-title {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.create-ticket-view .create-ticket-card .top-container .title-container .ticket-sub-title {
+  color: gray;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.create-ticket-view .create-ticket-card .top-container .dropdown-desc {
+  color: gray;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container {
+  margin-top: 10px;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container {
+  margin-bottom: 30px;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container .support-select-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container .support-select-container .support-select-desc {
+  font-weight: 600;
+  margin-right: 5px;
+  width: 350px;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container .support-select-container .support-select-desc .select-sub-text {
+  color: gray;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container .support-select-container .support-select {
+  width: 250px;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container .support-select-container .support-select .select-text {
+  color: gray;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container .topic-select-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container .topic-select-container .select-text {
+  font-weight: 600;
+  margin-right: 5px;
+  width: 350px;
+}
+
+.create-ticket-view .create-ticket-card .submit-to-container .selections-container .topic-select-container .topic-select {
+  width: 250px;
+}
+/*# sourceMappingURL=CreateTicket.css.map */

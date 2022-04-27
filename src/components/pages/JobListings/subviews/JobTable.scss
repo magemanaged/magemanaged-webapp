@@ -1,0 +1,34 @@
+#positionsTable {
+  width: 100%;
+
+  tbody {
+    tr {
+      height: 20px;
+
+      td {
+        font-weight: 500;
+        height: 45px;
+      }
+    }
+  }
+}
+
+.icons-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  .icon-container {
+    border-radius: 8px;
+    width: 50px;
+    margin: 0 5px;
+    text-align: center;
+    .icon {
+      position: relative;
+      height: 1.2rem;
+      margin: auto;
+      vertical-align: middle;
+      transition: all 0.05s linear;
+    }
+  }
+}

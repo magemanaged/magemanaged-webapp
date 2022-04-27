@@ -1,0 +1,85 @@
+.create-ticket-view {
+    height: 100%;
+    .create-ticket-card {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+        position: relative; 
+
+        .top-container {
+            display: flex;
+            justify-content: space-between;
+            .title-container {
+                .create-ticket-title {
+                    font-size: 1.5em;
+                    font-weight: 600;
+                    //margin-bottom: 10px;
+                }
+        
+                .ticket-sub-title {
+                    color: gray;
+                    font-size: 0.9em;
+                    font-weight: 500;
+                    margin-top: -5px;
+                    margin-bottom: 10px;
+                }
+            }
+            
+
+
+            .dropdown-desc {
+                color: gray;
+                font-size: 0.9em;
+                font-weight: 500;
+            }
+        }
+
+        .submit-to-container {
+            margin-top: 10px;
+
+            .selections-container {
+                margin-bottom: 30px;
+                .support-select-container {
+                    display: flex;
+                    margin-bottom: 5px;
+                    .support-select-desc {
+                        font-weight: 600;
+                        margin-right: 5px;
+                        width: 350px;
+
+                        .select-sub-text {
+                            color: gray;
+                            font-size: 0.9em;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .support-select {
+                        width: 250px;
+
+                        .select-text {
+                            color: gray;
+                            font-size: 0.9em;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .topic-select-container {
+                    display: flex;
+                    .select-text {
+                        font-weight: 600;
+                        margin-right: 5px;
+                        width: 350px;
+                    }
+
+                    .topic-select {
+                        width: 250px,
+                    }
+                }
+            }
+        }
+    }
+}

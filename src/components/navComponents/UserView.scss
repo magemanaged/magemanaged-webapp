@@ -1,0 +1,85 @@
+@keyframes profile-pic-load {
+	0% {
+		background-position: 0;
+	}
+	50% {
+		background-position: 60px 0;
+	}
+	100% {
+		background-position: 120px 0;
+	}
+}
+
+.wrapper {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    //background-color: #2BFF88;
+
+    .flex-wrapper {
+        display: flex;
+        margin-left: 10px;
+        .headshot-wrapper {
+            position: relative;
+            width: 60px;
+            display: flex;
+            #profile_pic {
+                height: 60px;
+                width: 60px;
+                top: 10px;
+                left: 0;
+                background: gray;
+                border-radius: 50px;
+                border: none;
+                outline: none;
+                transition: all 1s ease;
+                position: absolute;
+            }
+            #loading-pic {
+                height: 60px;
+                width: 60px;
+                margin-top: 10px;
+                left: 0;
+                background: rgb(182,182,182);
+                background: linear-gradient(90deg, rgba(182,182,182,1) 0%, rgba(218,218,218,1) 50%, rgba(182,182,182,1) 100%);
+                border-radius: 50px;
+                background-repeat: repeat;
+                animation: profile-pic-load 2s linear infinite;
+                transition: all 3s ease;
+                transform: rotate(10deg)
+                //position: absolute;
+            }
+        }
+
+        .profile-info {
+            margin-top: 4px;
+            margin-left: 10px;
+            //text-align: start;
+        }
+    }
+}
+
+.hide {
+    opacity: 0;
+}
+.show {
+    opacity: 100%;
+}
+
+.user-name {
+    margin-top: 10px;
+    color: white;
+    font-size: 1.2em;
+    font-weight:500;
+}
+
+.username {
+    color: white;
+    font-size: 0.9em;
+}
+
+.role {
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+}

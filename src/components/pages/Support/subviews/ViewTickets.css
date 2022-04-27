@@ -1,0 +1,26 @@
+.view-tickets-view {
+  height: 100%;
+}
+
+.view-tickets-view .view-tickets-card {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+}
+
+.view-tickets-view .view-tickets-card .header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.view-tickets-view .view-tickets-card .header-container .ticket-view-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=ViewTickets.css.map */

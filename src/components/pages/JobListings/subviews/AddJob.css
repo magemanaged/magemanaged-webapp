@@ -1,0 +1,70 @@
+.add-job-view .add-job-card {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+}
+
+.add-job-view .add-job-card .job-add-title {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.add-job-view .add-job-card .job-sub-title {
+  color: gray;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.add-job-view .add-job-card .job-addition-form form .input-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.input-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 20px;
+}
+
+#estimated_start_date {
+  width: 200px;
+}
+
+input {
+  background: white;
+  color: black;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  border-left: 0 solid transparent;
+  border-color: green;
+  border: 0;
+  height: 2rem;
+  padding: 0 1em;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+input .focus {
+  background: yellow;
+  color: #000;
+  border: 1px solid red;
+}
+
+label {
+  padding: 0 1em;
+  font-weight: 500;
+}
+/*# sourceMappingURL=AddJob.css.map */

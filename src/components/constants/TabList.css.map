@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,SAAS,CAAC;EACN,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,MAAM;EACd,MAAM,EAAE,MAAM;CACjB;;AAED,AAAA,SAAS,CAAC;EACN,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "TabList.scss"
+    ],
+    "names": [],
+    "file": "TabList.css"
+}

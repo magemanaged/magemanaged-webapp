@@ -1,0 +1,40 @@
+#positionsTable {
+  width: 100%;
+}
+
+#positionsTable tbody tr {
+  height: 20px;
+}
+
+#positionsTable tbody tr td {
+  font-weight: 500;
+  height: 45px;
+}
+
+.icons-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.icons-container .icon-container {
+  border-radius: 8px;
+  width: 50px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.icons-container .icon-container .icon {
+  position: relative;
+  height: 1.2rem;
+  margin: auto;
+  vertical-align: middle;
+  -webkit-transition: all 0.05s linear;
+  transition: all 0.05s linear;
+}
+/*# sourceMappingURL=JobTable.css.map */
