@@ -2,8 +2,8 @@ import React, { useEffect, useMemo, useState } from "react";
 import { useGlobalFilter, useSortBy, useTable } from "react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencil, faTrash, faBell } from "@fortawesome/free-solid-svg-icons";
-import { Merlin } from "../../../../auth/merlin/api";
-import { apiConfig } from "../../../../auth/merlin/config";
+import { Merlin } from "../../../../../../../auth/merlin/api";
+import { apiConfig } from "../../../../../../../auth/merlin/config";
 import "./JobTable.css";
 
 export function Positions(props) {

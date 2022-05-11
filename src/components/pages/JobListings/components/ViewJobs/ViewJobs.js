@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./ViewJobs.css";
-import { apiConfig } from "../../../../auth/merlin/config";
-import { Merlin } from "../../../../auth/merlin/api";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPencil, faTrash, faCheck } from "@fortawesome/free-solid-svg-icons";
-import { TabList } from "../../../constants/TabList";
-import { toast, ToastContainer } from "react-toastify";
-import { Scrollbars } from "react-custom-scrollbars";
-import { Positions } from "./JobTable";
+import { apiConfig } from "../../../../../auth/merlin/config";
+import { Merlin } from "../../../../../auth/merlin/api";
+import { TabList } from "../../../components/TabList/TabList";
+import { Positions } from "./components/JobTable/JobTable";
 
 function ViewJobs(props) {
   const views = ["All", "Complete", "Pending"];
