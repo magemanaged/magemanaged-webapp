@@ -1,4 +1,4 @@
-import { msalConfig } from "./auth/ms/aad/config";
+import { msalConfig } from "../auth/ms/aad/config";
 
 describe("Sanitize configuration object", () => {
   beforeAll(() => {});

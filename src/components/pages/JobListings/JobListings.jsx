@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { apiConfig } from "../../../auth/merlin/config";
 import { Merlin } from "../../../auth/merlin/api";
-import { TabList } from "../../constants/TabList";
-import PageHeader from "../Header/PageHeader";
-import AddJob from "./subviews/AddJob";
-import ViewJobs from "./subviews/ViewJobs";
+import { TabList } from "../components/TabList/TabList";
+import PageHeader from "../components/Header/PageHeader";
+import AddJob from "./components/AddJob/AddJob";
+import ViewJobs from "./components/ViewJobs/ViewJobs";
 
 function JobListings() {
   const pageTitles = ["All jobs", "Add job", "Status Steps", "Metrics"];

@@ -3,7 +3,7 @@ import { useMsal } from "@azure/msal-react";
 import "./Navbar.css";
 import "../../App.css";
 import UserView from "./components/UserView";
-import { Button } from "../Button";
+import { Button } from "../components/Button/Button";
 import NavMenu from "./components/NavMenu";
 
 function Navbar() {

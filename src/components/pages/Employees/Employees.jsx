@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { TabList } from "../../constants/TabList";
-import PageHeader from "../Header/PageHeader";
+import PageHeader from "../components/Header/PageHeader";
 
 function Employees() {
   const pageTitles = ["All users", "Add user", "User template"];

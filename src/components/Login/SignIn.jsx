@@ -1,12 +1,12 @@
 import React from "react";
 import "./SignIn.css";
-import "../../../App.css";
+import "../../App.css";
 import "./AnimatedSignIn.css";
 import { useIsAuthenticated } from "@azure/msal-react";
 import { useMsal } from "@azure/msal-react";
-import { loginRequest } from "../../../auth/ms/aad/config";
+import { loginRequest } from "../../auth/ms/aad/config";
 import { Navigate } from "react-router";
-import { Button } from "../../Button";
+import { Button } from "../components/Button/Button";
 
 function SignIn() {
   function handleLogin(instance) {
