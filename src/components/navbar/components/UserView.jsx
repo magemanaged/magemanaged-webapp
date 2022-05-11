@@ -1,13 +1,10 @@
 import React, { useEffect, useState, Fragment } from "react";
 import "./UserView.css";
-import { graphConfig } from "../../auth/ms/graph/config.js";
-import { MSGraph } from "../../auth/ms/graph/api";
+import { graphConfig } from "../../../auth/ms/graph/config.js";
+import { MSGraph } from "../../../auth/ms/graph/api";
 
 function UserView() {
-  const [name, setName] = useState(null);
-  const [userName, setUserName] = useState(null);
   const [profileInfo, setProfileInfo] = useState(null);
-  const [userPhoto, setGraphPhoto] = useState(null);
   const [photoURL, setPhotoURL] = useState(null);
   const [isPicLoading, setPicLoading] = useState(true);
   const { callMSGraph } = MSGraph();
@@ -16,7 +13,6 @@ function UserView() {
     // Silently acquires an access token which is then attached to a request for Microsoft Graph data
     callMSGraph(graphConfig.graphMeProfilePicEndpoint, "blob").then(
       (response) => {
-        setGraphPhoto(response);
         LoadProfilePhoto(response);
       }
     );
