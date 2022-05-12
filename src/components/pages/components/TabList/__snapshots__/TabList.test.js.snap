@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="undefined"
+>
+  <ul
+    className="tab-list"
+  >
+    <li>
+      <div
+        className="tab-container"
+        data-testid="tab-test"
+      >
+        <button
+          className="tab-item undefined"
+          onClick={[Function]}
+        >
+          Test Title
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

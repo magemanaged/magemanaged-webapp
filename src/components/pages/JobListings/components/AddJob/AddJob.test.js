@@ -1,6 +1,6 @@
 import React from "react";
 import { render, cleanup } from "@testing-library/react";
-import AddJob from "../AddJob";
+import AddJob from "./AddJob";
 import "@testing-library/jest-dom/extend-expect";
 import renderer from "react-test-renderer";
 
