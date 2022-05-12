@@ -1,6 +1,6 @@
 import React from "react";
 import { render, cleanup } from "@testing-library/react";
-import { Button } from "../Button";
+import { Button } from "./Button";
 import "@testing-library/jest-dom/extend-expect";
 import renderer from "react-test-renderer";
 

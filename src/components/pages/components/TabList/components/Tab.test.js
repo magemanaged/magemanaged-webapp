@@ -1,6 +1,6 @@
 import React from "react";
 import { getByTestId, render, cleanup } from "@testing-library/react";
-import { Tab } from "../Tab";
+import { Tab } from "./Tab";
 import "@testing-library/jest-dom/extend-expect";
 import renderer from "react-test-renderer";
 
