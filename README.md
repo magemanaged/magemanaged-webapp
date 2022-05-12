@@ -4,6 +4,12 @@
   </a>
 </p>
 
+<div align="center">
+  
+  <a href="">![Test](https://github.com/magemanaged/magemanaged-webapp/actions/workflows/integration.yml/badge.svg)</a>
+  
+</div>
+  
 ## Magemanaged
 
 Magemanaged is a workplace employee and asset management platform developed to unify and streamline the execution of common workplace tasks across different SaaS products through the use of REStful APIs. Magemanaged executes these tasks through...
