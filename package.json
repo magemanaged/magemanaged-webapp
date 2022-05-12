@@ -1,5 +1,5 @@
 {
-  "name": "mage",
+  "name": "magemanaged",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -36,7 +36,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(jest)/)' --coverage --watchAll",
-    "eject": "react-scripts eject"
+    "test-ci": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(jest)/)' --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "demo": ""
   },
   "eslintConfig": {
     "extends": [
