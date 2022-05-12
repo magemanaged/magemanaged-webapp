@@ -18,6 +18,6 @@ describe("Button", () => {
     );
     const foundButton = tree.root.findByType("button");
     foundButton.props.onClick();
-    expect(buttonClicked).toHaveBeenCalledTimes(3);
+    expect(buttonClicked).toHaveBeenCalledTimes(1);
   });
 });
