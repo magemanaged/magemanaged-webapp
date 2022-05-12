@@ -36,6 +36,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(jest)/)' --coverage --watchAll",
+    "test-ci": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(jest)/)' --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "demo": ""
   },
